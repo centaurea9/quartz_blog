@@ -5,7 +5,7 @@
     enableSPA: true
     enablePopovers: true
     locale: zh-CN
-    baseUrl: centaurea9.github.io/quartz_blog
+    baseUrl: centaurea.top
     ignorePatterns:
       - private
       - templates
