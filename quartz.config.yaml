@@ -88,7 +88,7 @@
       enabled: false
       order: 85
     - source: "@quartz-community/hard-line-breaks"
-      enabled: false
+      enabled: ture
       order: 90
     - source: "@quartz-community/ox-hugo"
       enabled: false
@@ -146,7 +146,7 @@
         position: left
         priority: 50
     - source: "@quartz-community/graph"
-      enabled: true
+      enabled: false
       layout:
         position: right
         priority: 10
@@ -229,7 +229,7 @@
         position: footer
         priority: 50
     - source: "@quartz-community/recent-notes"
-      enabled: true
+      enabled: false
       options:
         title: Recent Notes
         limit: 5

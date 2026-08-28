@@ -1,3 +1,12 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+// 正文图片统一限宽：不超过页宽的 70%，且高清图按比例缩小
+// 正文图片：限宽 + 居中 + 保持比例
+img {
+  max-width: 70%;
+  height: auto;
+  display: block;       // 从行内元素变成块级 → 才能用 margin 居中
+  margin: 1em auto;     // 左右 auto = 水平居中；上下 1em = 和文字留点呼吸感
+  border-radius: 6px;
+}
